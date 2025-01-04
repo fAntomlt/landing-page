@@ -10,11 +10,13 @@ body{
 header{
     background-color: #1f2937;
 }
+
+/* HEADER STYLES */
 .headeris{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 200px;
+    padding: 0 300px;
 }
 .leftHeaderis{
     >h1{
@@ -36,5 +38,60 @@ header{
                 text-decoration: none;
             }
         }
+    }
+}
+
+/* HERO STYLES */
+.heroContainer{
+    padding: 130px 300px;
+    display: flex;
+    background-color: #1f2937;
+}
+.heroLeft{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    >div:nth-child(1){
+        width: 50%;
+        >h1{
+            font-size: 48px;
+            color: #F9FAF8;
+            font-weight: 900;
+            padding: 0;
+            margin: 0;
+        }
+    }
+    >div:nth-child(2){
+        width: 70%;
+        >p{
+            font-size: 18px;
+            color: #e5e7eb;
+            width: 100%;
+        }
+    }
+    >div:nth-child(3){
+        background-color: #3882F6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        height: 40px;
+        border-radius: 10px;
+        >p{
+            color: #F9FAF8;
+            font-size: 18px;
+            font-weight: 900;
+        }
+    }
+}
+.heroRight{
+    width: 50%;
+    >div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #e5e7eb;
+        width: 100%;
+        height: 100%
     }
 }
